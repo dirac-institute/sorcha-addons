@@ -6,7 +6,7 @@ model changes to the apparent magnitude (modeling effects of cometary activity o
 
 ``Sorcha`` (pronounced "surk-ha") is an open-source Solar System survey simulator written in Python. ``Sorcha`` (pronounced "sur-kha"; derived from the Old Irish word for 'light' or 'brightness') is an open-source Solar System survey simulator written in Python.  ``Sorcha`` estimates the brightness of simulated Solar System small bodies and determines which ones the survey could detect in each of the survey's observations  based on user set criteria. ``Sorcha`` has been designed
 with the `Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST) <https://rubinobservatory.org>`_
-in mind.  You can learn more here``Sorcha`` `here <https://sorcha.readthedocs.io>`_. 
+in mind.  You can learn more about ``Sorcha`` `here <https://sorcha.readthedocs.io>`_. 
 
 
 .. note::

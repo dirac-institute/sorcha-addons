@@ -3,19 +3,20 @@ Installing Sorcha Add-ons
 ==============================
 
 .. note::
-   ``Sorcha add-ons``is both conda/mamba and pip installable. We recommend installing via conda/mamba.
+   ``Sorcha add-ons`` is both conda/mamba and pip installable. We recommend installing via conda/mamba.
 
 Step 1: First Install Sorcha
 ------------------------------
 
-``Sorcha add-ons`` is a companion package to `Sorcha`, a Solar System survey simulator desigbed for the L
+``Sorcha add-ons`` is a companion package to ``Sorcha``, a Solar System survey simulator designed for the `Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST) <https://rubinobservatory.org>`_. 
+
+The first step is to install ``Sorcha``. Folow the instructions `here <https://sorcha.readthedocs.io/en/latest/installation.html>`_ to set up a python environment and get ``Sorcha`` and its associated packages installed. 
 
 
 Step 2: Installing Sorcha Add-ons
 --------------------------------------
 
-Once you installed ``Sorcha`` and its associated packages, it's straightforward to install ``Sorcha Add-ons``. Unless you're editing the source code,
- you can use the version of  ``Sorcha add-ons`` published on conda-forge.
+Once you installed ``Sorcha`` and its associated packages, it's straightforward to install ``Sorcha Add-ons``. Unless you're editing the source code,you can use the version of  ``Sorcha add-ons`` published on conda-forge.
 
 If using conda::
 
@@ -35,7 +36,7 @@ If using pip::
 Installing Sorcha Add-ons in Development Mode
 ---------------------------------------------------------------------
 
-**This is the installation method for adding/edit ``Sorcha add-ons``'s codebase or for working on/updating ``Sorcha add-ons`'s  documentation.**
+**This is the installation method for adding/editing ``Sorcha add-ons``'s codebase or for working on/updating ``Sorcha add-ons`'s  documentation.**
 
 **Step 1** Create a directory to contain the ``Sorcha add-ons`` repo::
 

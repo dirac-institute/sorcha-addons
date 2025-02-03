@@ -3,10 +3,8 @@
 Contribution guide
 ==================
 
-**Work in Progress**
-
-Create your environment
------------------------
+Create Your Environment and Install the Package in Development Mode
+-------------------------------------
 
 Clone the source code with ``git clone ...``.
 
@@ -32,4 +30,4 @@ Create a PR for review
 
 Commit your changes to a new git branch and create a PR for review.
 
-Add <someone???> as the reviewer.
+Add **mschwamb** as the reviewer.
