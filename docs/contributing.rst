@@ -1,10 +1,10 @@
+.. _contributing: 
+
 Contribution guide
 ==================
 
-**Work in Progress**
-
-Create your environment
------------------------
+Create Your Environment and Install the Package in Development Mode
+-------------------------------------
 
 Clone the source code with ``git clone ...``.
 
@@ -16,7 +16,7 @@ Initialize pre-commit with ``pre-commit install``.
 Create your Contribution
 ------------------------
 
-Add src code in new module under ``.../src/socha_community_utils``
+Add src code in new module under ``.../src/socha``
 
 Add tests in new folder under ``.../tests/``
 
@@ -30,4 +30,4 @@ Create a PR for review
 
 Commit your changes to a new git branch and create a PR for review.
 
-Add <someone???> as the reviewer.
+Add **mschwamb** as the reviewer.
