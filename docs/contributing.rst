@@ -16,7 +16,7 @@ Initialize pre-commit with ``pre-commit install``.
 Create your Contribution
 ------------------------
 
-Add src code in new module under ``.../src/socha_community_utils``
+Add src code in new module under ``.../src/socha``
 
 Add tests in new folder under ``.../tests/``
 
