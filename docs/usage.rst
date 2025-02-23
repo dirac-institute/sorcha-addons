@@ -6,8 +6,5 @@ virtual environment along with ``Sorcha``. Once the ``Sorcha-addons`` package in
 the available plugins and make them available during runtime. `
 
 To use one of the plugins from the community utilities, simply add the unique
-name of the plugin to the configuration file provided to ``Sorcha``, and provide the
-complex parameters file on the command line. For more information about running Sorcha, see the documentation available 
-`here <https://sorcha.readthedocs.io>`_.
-
+name of the plugin to the `configuration file <https://sorcha.readthedocs.io/en/latest/configfiles.html>`_ provided to ``Sorcha``, and provide the complex parameters file on the command line. For more information about running Sorcha, see the documentation available  `here <https://sorcha.readthedocs.io>`_.
 

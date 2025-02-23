@@ -1,4 +1,4 @@
 Sinusoidal Lightcurve
 =====================
 
-Basic implementation of a sinusoidal light curve.
+Basic implementation of a sinusoidal light curve. This  provides a simple example implementation where the apparent magnitude of the object (that is, the magnitude after all geometric effects have been taken into account), has a sinusoidal term added to it. To use this function, in the Sorcha complex parameters file the user must provide a light curve amplitude (`LCA`), corresponding to half the peak-to-peak amplitude for the magnitude changes, a period `Period`, and a reference time `Time0` where the light curve is at 0 - if these are not provided, the software will produce an error message. Despite being simple, that implementation shows all the class methods that need to be implemented for a custom light curve function. We have :ref:`notebooks`  demonstrating the SinusoidalLightCurve class built into ``Sorcha add-ons``package,  To use this prescription, the **lc_model**  variable should be set to **sinusoidal** in the Sorcha configuration file. 
