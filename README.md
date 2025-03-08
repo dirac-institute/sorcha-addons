@@ -10,9 +10,12 @@
 [![Template](https://img.shields.io/badge/Template-LINCC%20Frameworks%20Python%20Project%20Template-brightgreen)](https://lincc-ppt.readthedocs.io/en/latest/)
 
 This is a repository for community generated light curve and cometary activity
-functions for the [Sorcha](https://github.com/dirac-institute/sorcha) Solar
-System survey simulator software package. Further details can be found in the
+formulations for the [Sorcha](https://github.com/dirac-institute/sorcha) Solar
+System survey simulator software package. Further details  can be found in the
 [Sorcha documentation](https://sorcha.readthedocs.io). 
+
+Details about how to install the Sorcha Add-ons package can be found in this package's specific documentation: https://sorcha-addons.readthedocs.io
+
 
 ##Sorcha Team
 This effort is a collaboration between Queen's University Belfast, the University of Washington's DiRAC Institute, 
