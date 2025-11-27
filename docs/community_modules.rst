@@ -8,6 +8,7 @@ Lightcurve Classes Documentation
 
 .. NOTE: Please add new pages alphabetically
 .. toctree::
+    Ellipsoidal Lightcurve <community_modules/lightcurve/ellipsoidal>
     Sinusoidal Lightcurve <community_modules/lightcurve/sinusoidal>
 
 
