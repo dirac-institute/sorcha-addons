@@ -46,4 +46,4 @@ Create a Pull Request For Review
 
 Commit your changes to a fork of the github repository  and create a pull request for review.
 
-Add **mschwamb** as the reviewer.
+Mention **mschwamb** in a reply of the pull request.
