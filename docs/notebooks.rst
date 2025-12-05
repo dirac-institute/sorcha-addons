@@ -12,6 +12,15 @@ Lightcurve Example Notebooks
 
 .. NOTE: Please add new notebooks alphabetically
 
+Ellipsoidal Lightcurve Class 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+    :maxdepth: 1
+    
+    Simple Ellipsoidal Lightcurve <notebooks/lightcurve/ellipsoidal/demo_Ellipsoidal_Lightcurve>
+    More advanced Ellipsoidal Lightcurve, accounting for non-illuminated parts <notebooks/lightcurve/ellipsoidal/demo_EllipsoidalWithTerminator_Lightcurve>
+
 Sinusoidal Lightcurve Class 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
