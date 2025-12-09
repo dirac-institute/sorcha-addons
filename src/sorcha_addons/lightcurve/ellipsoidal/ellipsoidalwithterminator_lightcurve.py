@@ -179,19 +179,14 @@ class EllipsoidalWithTerminatorLightCurve(AbstractLightCurve):
 
         # Sub-Solar (s.TQs):
         sQs = (
-            sin_aspect_s_2
-            * (np.cos(rot_phase_s) ** 2 + (a_b**2) * np.sin(rot_phase_s) ** 2)
+            sin_aspect_s_2 * (np.cos(rot_phase_s) ** 2 + (a_b**2) * np.sin(rot_phase_s) ** 2)
             + cos_aspect_s_2 * a_c**2
         )
 
         # Cross-term (e.TQs):
         eQs = (
             sin_aspect * np.cos(rot_phase) * sin_aspect_s * np.cos(rot_phase_s)
-            + sin_aspect
-            * np.sin(rot_phase)
-            * sin_aspect_s
-            * np.sin(rot_phase_s)
-            * (a_b**2)
+            + sin_aspect * np.sin(rot_phase) * sin_aspect_s * np.sin(rot_phase_s) * (a_b**2)
             + cos_aspect * cos_aspect_s * a_c**2
         )
 
