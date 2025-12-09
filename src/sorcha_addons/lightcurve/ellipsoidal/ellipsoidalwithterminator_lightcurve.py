@@ -123,7 +123,6 @@ class EllipsoidalWithTerminatorLightCurve(AbstractLightCurve):
             "Range_LTC_km",
             "RA_deg",
             "Dec_deg",
-            "phase_deg",
             "RA_s_deg",
             "Dec_s_deg",
             "Period",
@@ -145,7 +144,6 @@ class EllipsoidalWithTerminatorLightCurve(AbstractLightCurve):
         ep = df["fieldMJD_TAI"].values - df["Range_LTC_km"] / c_kmday
         ra = np.radians(df["RA_deg"].values)
         dec = np.radians(df["Dec_deg"].values)
-        phase = df['phase_deg'].values
         ra_s = np.radians(df["RA_s_deg"].values)
         dec_s = np.radians(df["Dec_s_deg"].values)
         period = df["Period"].values
@@ -181,19 +179,24 @@ class EllipsoidalWithTerminatorLightCurve(AbstractLightCurve):
 
         # Sub-Solar (s.TQs):
         sQs = (
-            sin_aspect_s_2 * (np.cos(rot_phase_s) ** 2 + (a_b**2) * np.sin(rot_phase_s) ** 2)
+            sin_aspect_s_2
+            * (np.cos(rot_phase_s) ** 2 + (a_b**2) * np.sin(rot_phase_s) ** 2)
             + cos_aspect_s_2 * a_c**2
         )
 
         # Cross-term (e.TQs):
         eQs = (
             sin_aspect * np.cos(rot_phase) * sin_aspect_s * np.cos(rot_phase_s)
-            + sin_aspect * np.sin(rot_phase) * sin_aspect_s * np.sin(rot_phase_s) * (a_b**2)
+            + sin_aspect
+            * np.sin(rot_phase)
+            * sin_aspect_s
+            * np.sin(rot_phase_s)
+            * (a_b**2)
             + cos_aspect * cos_aspect_s * a_c**2
         )
 
         # Integrated flux is the sum of half-limb + half-terminator ellipses
-        I_tot = (np.sqrt(eQe) + eQs / np.sqrt(sQs)) / 2.
+        I_tot = (np.sqrt(eQe) + eQs / np.sqrt(sQs)) / 2.0
         return -2.5 * np.log10(I_tot)
 
     # this method defines the same of the class inside LC_METHODS
