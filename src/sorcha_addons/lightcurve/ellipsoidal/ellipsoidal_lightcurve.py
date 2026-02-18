@@ -4,7 +4,6 @@ from typing import List
 import pandas as pd
 import numpy as np
 
-
 # Constants
 au = 1.495978707e8  # AU in km
 c = 299792.458  # speed of light in km/s
