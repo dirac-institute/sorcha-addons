@@ -1,9 +1,4 @@
-from sorcha_addons.lightcurve.ellipsoidal.ellipsoidal_lightcurve import (
-    EllipsoidalLightCurve,
-    cos_aspect_angle,
-    rotation_phase,
-    subobserver_longitude,
-)
+from sorcha_addons.lightcurve.ellipsoidal.ellipsoidal_lightcurve import EllipsoidalLightCurve
 import pandas as pd
 import numpy as np
 
@@ -38,5 +33,6 @@ def test_ellipsoidal_lightcurve_name():
     assert np.isclose(output.values[0], -2.5 * np.log10(2))
     assert np.isclose(output.values[1], -2.5 * np.log10(1))
     assert np.isclose(output.values[2], -2.5 * np.log10(4))
+
 
 test_ellipsoidal_lightcurve_name()
