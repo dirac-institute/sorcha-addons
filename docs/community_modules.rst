@@ -18,3 +18,4 @@ Activity Classes Documentation
 .. NOTE: Please add new pages alphabetically
 .. toctree::
     LSST Comet <community_modules/activity/lsst_comet>
+    MPC Comet Total Magnitudes <community_modules/activity/mpc_comet>
