@@ -19,7 +19,8 @@ dependencies = [
     "sorcha",
     "astropy",
     "scipy",
-    "synphot"
+    "synphot",
+    "sbpy>=0.6"
 ]
 
 # On a mac, install optional dependencies with `pip install '.[dev]'` (include the single quotes)

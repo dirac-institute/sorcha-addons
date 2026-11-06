@@ -42,3 +42,10 @@ LSST Comet Class
     LSST Comet <notebooks/activity/lsst_comet/simple_cometary_magnitude>
     Sorcha Calculations Using the LSST Comet Class <notebooks/activity/lsst_comet/demo_LSSTComet_within_Sorcha>
 
+
+MPC Comet Class
+~~~~~~~~~~~~~~~~~~~~
+.. toctree::
+    :maxdepth: 1
+
+    MPC Total Magnitudes <notebooks/activity/mpc_comet/example>
